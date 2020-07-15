@@ -1,0 +1,20 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+"The NERDTree
+Plug 'preservim/nerdtree'
+" vim-airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+"multi-cursor
+Plug 'terryma/vim-multiple-cursors'
+"fzf and ripgrep
+Plug 'jremmen/vim-ripgrep'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
+call plug#end()
+
+"airline config
+let g:airline_powerline_fonts = 1
